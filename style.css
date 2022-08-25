@@ -205,11 +205,25 @@ nav li a {
     color: #fff;
     margin: 30px 0px;
     padding: 7px 80px;
+    border: 1px solid #404040;
+}
+.view_more_btn button:hover{
+    background: white;
+    border: 1px solid #404040;
+    color: #404040;
+    transition: 1.3s;
 }
 .img_product_four_point{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    /* text-align: center; */
+    /* justify-content: center; */
+    justify-items: center;
+    align-items: center !important;
     margin-bottom: 20px;
+}
+.img_product_four_point p{
+    margin: 5px !important;
 }
 .img_product_four_point img{
     width: 50px;
